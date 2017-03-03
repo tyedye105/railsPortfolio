@@ -1,6 +1,8 @@
 <h1 class = "Jumbotron">Projects</h1>
 
-<p> Like an adventure collecting an impressive amount of treasure on thier journeys, I too have amassed a fair amount of treasures. By treausres I mean GitHub Repositories, most of them are projects that were created during my time at Epicodus. Some of them are polished looking websites, webapps with functionality, others remanant's from hours of learning. The following repos are...</p>
+<p> Like an adventure collecting an impressive amount of treasure on thier journeys, I too have amassed a fair amount of treasures. By treausres I mean GitHub Repositories, most of them are projects that were created during my time at Epicodus. Some of them are polished looking websites, webapps with functionality, others remanant's from hours of learning.</p>
+<br>
+<p> The following repos are...</p>
 
 
 <h3>The Best of my Best:</h3>
@@ -9,11 +11,13 @@
   <% @projects.each do |project| %>
     <% if project['stargazers_count'] > 0 %>
   <div class="well">
-   <%= project['name'] %>
+    <h4>Title: <%= project['name'] %> </h4>
+
    <br>
+   <h4>Description:</h4>
    <%= project['description'] %>
    <hr>
-   <%= project['stargazers_count'] %>
+   <h4>This project has gotten this many stars! <%= project['stargazers_count'] %></h4>
  </div>
  <% end %>
  <% end %>
