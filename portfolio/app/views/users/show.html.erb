@@ -1,21 +1,22 @@
 <h1 class = "Jumbotron">Projects</h1>
 
-<p> Like an adventure collecting an impressive amount of treasure on thier journeys, I too have amassed a fair amount of treasures. By treausres I mean GitHub Repositories, most of them are projects that were created during my time at Epicodus. Some of them are polished looking websites, webapps with functionality, others remanant's from hours of learning. The following three repos are...</p>
+<p> Like an adventure collecting an impressive amount of treasure on thier journeys, I too have amassed a fair amount of treasures. By treausres I mean GitHub Repositories, most of them are projects that were created during my time at Epicodus. Some of them are polished looking websites, webapps with functionality, others remanant's from hours of learning. The following repos are...</p>
 
 
 <h3>The Best of my Best:</h3>
 
- <% if @projects.any? %>
-   <% @projects.each do |project| %>
-   <div class="well">
-    <h4>The Project :<%= project.name %></h4>
-    <h4>Description</h4>
-    <p><%= project.description %></p>
-    <br>
-    <h4>No. Of Stars :<%= project.stars %></h4>
-    <a href="https://github.com/tyedye105/<%=project.name%>"></a>
-   </div>
-   <% end %>
- <% else %>
-  <h1>Something has gone horrifically wrong if you are seeing this...</h1>
-  <% end %>
+<% if @projects.any? %>
+  <% @projects.each do |project| %>
+    <% if project['stargazers_count'] > 0 %>
+  <div class="well">
+   <%= project['name'] %>
+   <br>
+   <%= project['description'] %>
+   <hr>
+   <%= project['stargazers_count'] %>
+ </div>
+ <% end %>
+ <% end %>
+<% else %>
+ <h1>Something has gone horrifically wrong if you are seeing this...</h1>
+ <% end %>
