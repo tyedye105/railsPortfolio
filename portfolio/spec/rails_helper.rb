@@ -55,6 +55,13 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
 end
 
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/cassettes'
+  c.hook_into :webmock
+  c.configure_rspec_metadata!
+  c.filter_sensitive_data('<GH_API_KEY>') { ENV['GH_API_KEY'] }
+
+end
 
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|

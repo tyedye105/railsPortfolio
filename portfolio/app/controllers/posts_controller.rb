@@ -5,12 +5,11 @@ def index
 end
 
 def show
+   @user = current_user
    @post = Post.find(params[:post_id])
-   @contribution = Contribution.find(params[:id])
  end
  def new
    @post = Post.find(params[:post_id])
-   @image = random_image
    @contribution = Contribution.new
  end
  def create
