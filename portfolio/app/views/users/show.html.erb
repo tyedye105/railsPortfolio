@@ -1,12 +1,14 @@
-<h1 class = "Jumbotron">Projects</h1>
+<div class="well">
+<h1><strong>Projects</strong></h1>
 
-<p> Like an adventure collecting an impressive amount of treasure on thier journeys, I too have amassed a fair amount of treasures. By treausres I mean GitHub Repositories, most of them are projects that were created during my time at Epicodus. Some of them are polished looking websites, webapps with functionality, others remanant's from hours of learning.</p>
+<p> Like an adventurer collecting an impressive amount of treasure on thier journies, I too have amassed a fair amount of <strong>treasures.</strong> By treausres I mean <strong>GitHub Repositories</strong>. Most of them are projects that were created during my time at Epicodus. Some of them are polished looking websites and web apps with functionality, others remanant's from the learning process. </p>
 <br>
 <p> The following repos are...</p>
-
-
-<h3>The Best of my Best:</h3>
-
+</div>
+<div class="well">
+  <h2>The Best of my Best:</h2>
+  <h5>note: the titles of the projects are prefixed with the main langauge/framework the project was made in.</h5>
+</div>
 <% if @projects.any? %>
   <% @projects.each do |project| %>
     <% if project['stargazers_count'] > 0 %>

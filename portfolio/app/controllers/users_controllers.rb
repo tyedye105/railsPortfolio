@@ -3,7 +3,6 @@ class UsersController < ApplicationController
   end
 
   def show
-    @projects = Project.get_best
-    @best_projects = []
+    @projects = Project.get_all
   end
 end
