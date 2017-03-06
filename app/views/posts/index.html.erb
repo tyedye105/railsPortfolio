@@ -1,9 +1,11 @@
 <div class="well">
 <h1>What Marty's Been Up To Recently</h1>
-
+<% if @user.is_admin?  %>
+<%= button_to "Add New Blog Post", new_user_post_path(@user), method: :get%>
+<% end %>
 <%if @posts.any? %>
-  <% @post.each do |post| %>
-  <%= link_to post.title, user_post_path(post.id) %>
+  <% @posts.each do |post| %>
+  <%= link_to post.title, post_path(post.id) %>
   <% end %>
   <% else %>
   <h2>There are currently no blog posts</h2>

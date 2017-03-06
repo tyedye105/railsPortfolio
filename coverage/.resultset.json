@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/portfolio/spec/features/projects_page_spec.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/spec/features/projects_page_spec.rb": [
         1,
         null,
         null,
@@ -13,7 +13,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/spec/rails_helper.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -86,14 +86,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/environment.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/portfolio/config/application.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/application.rb": [
         1,
         null,
         1,
@@ -120,12 +120,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/boot.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/portfolio/config/spring.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/spring.rb": [
         null,
         null,
         null,
@@ -133,7 +133,7 @@
         null,
         5
       ],
-      "/Users/Guest/Desktop/portfolio/config/environments/test.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/environments/test.rb": [
         1,
         null,
         null,
@@ -177,7 +177,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/application_controller_renderer.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -185,7 +185,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/assets.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -198,7 +198,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/backtrace_silencers.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -207,14 +207,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/cookies_serializer.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/devise.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -490,13 +490,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/filter_parameter_logging.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/inflections.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -514,13 +514,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/mime_types.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/new_framework_defaults.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/new_framework_defaults.rb": [
         null,
         null,
         null,
@@ -546,12 +546,12 @@
         null,
         1
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/session_store.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/portfolio/config/initializers/wrap_parameters.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -567,32 +567,34 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/config/routes.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/config/routes.rb": [
         1,
         1,
         1,
         1,
         1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/models/user.rb": [
+        1,
+        null,
+        null,
         1,
         null,
         1,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/app/models/user.rb": [
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/portfolio/app/models/application_record.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/app/controllers/application_controller.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/controllers/application_controller.rb": [
         1,
         1,
         null,
@@ -605,119 +607,91 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/app/helpers/application_helper.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/app/channels/application_cable/channel.rb": [
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/portfolio/app/channels/application_cable/connection.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/channels/application_cable/channel.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/app/controllers/landing_controller.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/channels/application_cable/connection.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/app/controllers/posts_controller.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/controllers/landing_controller.rb": [
+        1,
         1,
         null,
+        null
+      ],
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/controllers/posts_controller.rb": [
         1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
         1,
         0,
         0,
         null,
         1,
         0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
         null,
         1,
         0,
         0,
         0,
-        0,
-        0,
         null,
         0,
         0,
         null,
         null,
-        1,
-        0,
-        0,
-        0,
-        0,
         null,
-        null,
-        null,
-        null,
+        null
+      ],
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/controllers/projects_controller.rb": [
         1,
         1,
         0,
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/app/controllers/users_controllers.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/controllers/users_controllers.rb": [
         1,
         1,
         null,
         null,
         1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/portfolio/app/jobs/application_job.rb": [
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/portfolio/app/mailers/application_mailer.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/portfolio/app/models/post.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/portfolio/app/services/project_service.rb": [
-        1,
-        null,
-        1,
-        2,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/spec/factories/users.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/jobs/application_job.rb": [
+        1,
+        null
+      ],
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/models/post.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/app/services/project_service.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/spec/factories/users.rb": [
         1,
         1,
         1,
@@ -730,14 +704,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/spec/models/user_spec.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/spec/models/user_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/spec/services/project_service_spec.rb": [
+      "/Users/tyedye105/Desktop/railsPortfolio/portfolio/spec/services/project_service_spec.rb": [
         1,
         1,
         1,
@@ -748,6 +722,6 @@
         null
       ]
     },
-    "timestamp": 1488588667
+    "timestamp": 1488781992
   }
 }
