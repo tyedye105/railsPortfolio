@@ -26,6 +26,19 @@ class PostsController < ApplicationController
         render :new
       end
     end
+    def edit
+      @user = current_user
+      @post = Post.find(params[:id])
+    end
+    def update
+      @user = current_user
+      @post = Post.find(params[:id])
+        if @post.update(post_params)
+          flash[:notice]= "You have edited this blog post"
+          redirect_to posts_path
+        else
+          render edit
+    end
 
     private
     def post_params

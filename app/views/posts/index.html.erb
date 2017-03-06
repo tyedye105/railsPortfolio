@@ -6,7 +6,10 @@
 <%if @posts.any? %>
   <% @posts.each do |post| %>
   <h2><%= link_to post.title, post_path(post.id) %></h2>
-    <br>
+  <% if @user.is_admin %>
+    <%= link_to "Edit", edit_user_post_path(@user, post), :class => "btn btn-default" %>
+    <%= link_to "Delete", user_post_path(@user, post),:class => "btn btn-default", :data => {:confirm => "Are you sure?",
+                                           :method => "delete"}  %>
   <% end %>
   <% else %>
   <h2>There are currently no blog posts</h2>
