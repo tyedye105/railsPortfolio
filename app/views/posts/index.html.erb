@@ -1,0 +1,11 @@
+<div class="well">
+<h1>What Marty's Been Up To Recently</h1>
+
+<%if @posts.any? %>
+  <% @post.each do |post| %>
+  <%= link_to post.title, user_post_path(post.id) %>
+  <% end %>
+  <% else %>
+  <h2>There are currently no blog posts</h2>
+  <% end %>
+  </div>
