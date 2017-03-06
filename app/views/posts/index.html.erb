@@ -1,0 +1,18 @@
+<div class="well">
+<h1>What Marty's Been Up To Recently</h1>
+<% if @user.is_admin?  %>
+<%= button_to "Add New Blog Post", new_user_post_path(@user), method: :get%>
+<% end %>
+<%if @posts.any? %>
+  <% @posts.each do |post| %>
+  <h2><%= link_to post.title, post_path(post.id) %></h2>
+  <% if @user.is_admin %>
+    <%= link_to "Edit", edit_user_post_path(@user, post), :class => "btn btn-default" %>
+    <%= link_to "Delete", user_post_path(@user, post),:class => "btn btn-default", :data => {:confirm => "Are you sure?",
+                                           :method => "delete"}  %>
+   <% end                                   %>
+  <% end %>
+  <% else %>
+  <h2>There are currently no blog posts</h2>
+  <% end %>
+  </div>
