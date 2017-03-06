@@ -5,7 +5,8 @@
 <% end %>
 <%if @posts.any? %>
   <% @posts.each do |post| %>
-  <%= link_to post.title, post_path(post.id) %>
+  <h2><%= link_to post.title, post_path(post.id) %></h2>
+    <br>
   <% end %>
   <% else %>
   <h2>There are currently no blog posts</h2>

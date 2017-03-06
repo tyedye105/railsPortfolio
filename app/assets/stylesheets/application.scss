@@ -14,7 +14,9 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+.title{
+  text-align: center;
+}
 hr {
   border-top-color: black;
 }
