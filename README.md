@@ -1,24 +1,29 @@
-# README
+Portfolio MKII
+By Marty Kovach 03/06/2017
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Description
 
-Things you may want to cover:
+  This is the second iteration of my Portfolio, the first was simply the trinity of html, javascript, and css. This was created using Ruby, Rails. In addition to having a much cleaner look, this version also features a repositories pages that is populated with my starred repos from github.  
+Setup/Installation Requirements
 
-* Ruby version
+Clone this repo: railsPortfolio
+Move the Portfolio folder out of the railsPortfolio(don't know how that happened)
+Start Postgres
+In The terminal: $rails db:create
+In The terminal: $rails db:migrate
+In The terminal: $rails s
+Go to localhost:3000, and check out the app!
+Once you have created an account, open the rails console and edit your is_admin attributes to true in order access ADMIN POWERS!
 
-* System dependencies
+Known bugs
 
-* Configuration
 
-* Database creation
+Technologies Used
 
-* Database initialization
+_hmtl, css, Ruby, Rails, Devise
 
-* How to run the test suite
+License
 
-* Services (job queues, cache servers, search engines, etc.)
+MIT License
 
-* Deployment instructions
-
-* ...
+Copyright (c) 2017 Marty Kovach
