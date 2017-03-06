@@ -3,8 +3,15 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
   def  show
-    @user = current_user
     @post = Post.find(params[:id])
   end
-  
+  def new
+    @user = current_user
+      @user.is_admin?
+      @post= Post.new
+    else
+      flash[:alert] = "Admins only"
+      redirect_to posts_path
+  end
+
 end

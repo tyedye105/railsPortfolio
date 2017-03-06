@@ -28,18 +28,19 @@
             <li><%= link_to "About Me", landing_index_path %></li>
             <li><%= link_to "Projects", projects_path %></li>
             <li><%= link_to "Blog Posts", posts_path %></li>
-
           </ul>
 
           </div>
+          <h4><%= flash[:alert] %></h4>
+         <br>
+         <h4><%= flash[:notice] %></h4>
         </div>
       </div>
     </div>
   </head>
 
   <body  >
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+
     <div class="container">
       <%= yield %>
     </div>
