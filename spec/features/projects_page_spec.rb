@@ -1,10 +1,9 @@
 require "rails_helper"
 
 
-describe "adding an image" do
-  it "will let the adminstrator add an image." do
-    user = FactoryGirl.create(:user, :is_admin => true)
-    visit user_path(user)
+describe "display projects path ", :vcr => true do
+  it "will let the all users see starred repositories grabbed by the github api." do
+    visit projects_path
     expect(page).to have_content 'nghaven'
   end
 end

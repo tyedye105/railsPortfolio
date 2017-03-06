@@ -10,6 +10,7 @@
     <%= link_to "Edit", edit_user_post_path(@user, post), :class => "btn btn-default" %>
     <%= link_to "Delete", user_post_path(@user, post),:class => "btn btn-default", :data => {:confirm => "Are you sure?",
                                            :method => "delete"}  %>
+   <% end                                   %>
   <% end %>
   <% else %>
   <h2>There are currently no blog posts</h2>

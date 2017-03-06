@@ -38,6 +38,15 @@ class PostsController < ApplicationController
           redirect_to posts_path
         else
           render edit
+        end
+    end
+    def destroy
+      @user = current_user
+      @post = Post.find(params[:id])
+    if @post.destroy
+      flash[:notice]="You have removed this blog post"
+      redirect_to posts_path
+      end
     end
 
     private

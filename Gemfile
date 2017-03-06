@@ -32,8 +32,6 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
-gem 'vcr'
-gem 'webmock'
 gem 'httparty'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -51,6 +49,8 @@ group :development, :test do
   gem 'poltergeist'
   gem 'database_cleaner'
   gem 'dotenv-rails'
+  gem 'vcr'
+  gem 'webmock'
 end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.

@@ -7,6 +7,7 @@ require 'spec_helper'
 require 'rspec/rails'
 include Warden::Test::Helpers
 require 'capybara/rails'
+require 'webmock/rspec'
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
@@ -59,8 +60,6 @@ VCR.configure do |c|
   c.cassette_library_dir = 'spec/cassettes'
   c.hook_into :webmock
   c.configure_rspec_metadata!
-  c.filter_sensitive_data('<GH_API_KEY>') { ENV['GH_API_KEY'] }
-
 end
 
 Shoulda::Matchers.configure do |config|
